@@ -1,0 +1,22 @@
+{
+  "name": "modal_webview",
+  "version": "0.1.0",
+  "summary": "A short description of modal_webview.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/João Pedro/modal_webview",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "João Pedro": "joaomorais.ext@e-ai.com.br"
+  },
+  "source": {
+    "git": "https://github.com/João Pedro/modal_webview.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "modal_webview/Classes/**/*"
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'modal_webview_Example' do
+  pod 'modal_webview', :path => '../'
+
+  target 'modal_webview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

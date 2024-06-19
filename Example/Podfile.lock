@@ -1,0 +1,16 @@
+PODS:
+  - modal_webview (0.1.0)
+
+DEPENDENCIES:
+  - modal_webview (from `../`)
+
+EXTERNAL SOURCES:
+  modal_webview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  modal_webview: 266b18af9874aa7e581775156bca225e89dab3dd
+
+PODFILE CHECKSUM: 54de7c736d0e4cc6738f8446e0a0159da2531bc1
+
+COCOAPODS: 1.15.2
