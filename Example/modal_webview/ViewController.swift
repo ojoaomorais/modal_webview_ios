@@ -34,5 +34,9 @@ extension ViewController: ModalWebviewProtocol{
     func didClose() {
         print("Closed")
     }
+    
+    func didFailOpenUrl(){
+        print("Did failed to open URL")
+    }
 }
 
