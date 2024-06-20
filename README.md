@@ -1,10 +1,8 @@
-# modal_webview
+# Modal Webview
 
+A very simple modal webview for display web pages inside your app.
 
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+https://github.com/ojoaomorais/modal_webview_ios/assets/15629444/6b095280-fb72-47f7-b0de-ede2b0ec7b35
 
 ## Requirements
 
@@ -17,9 +15,49 @@ it, simply add the following line to your Podfile:
 pod 'modal_webview'
 ```
 
+## Usage
+
+After import the library `import modal_webview`, instantiate the class and qual the `show` method:
+
+```swift
+class ViewController: UIViewController {
+
+    let webview = ModalWebview()
+    var url = URL(string: "https://developer.apple.com/")!
+
+    func showBrowserAction(){
+        webview.show(controller: self, url: url)
+    }
+}
+```
+
+## Delegate
+
+You can easily track events ocurring on the webView by implementing the delegate:
+
+```swift
+class ViewController: UIViewController {
+
+     override func viewDidLoad() {
+         super.viewDidLoad()
+         webview.delegate = self
+     }
+}
+extension ViewController: ModalWebviewProtocol{
+    func didClose() {
+        print("Closed")
+    }
+    
+    func didFailOpenUrl(){
+        print("Did failed to open URL")
+    }
+}
+
+```
+
 ## Author
 
-João Pedro, joaopedromorais.eu@gmail.com
+João Morais, joaopedromorais.eu@gmail.com
 
 ## License
 
