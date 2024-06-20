@@ -1,9 +1,6 @@
 # modal_webview
 
-[![CI Status](https://img.shields.io/travis/João Pedro/modal_webview.svg?style=flat)](https://travis-ci.org/João Pedro/modal_webview)
-[![Version](https://img.shields.io/cocoapods/v/modal_webview.svg?style=flat)](https://cocoapods.org/pods/modal_webview)
-[![License](https://img.shields.io/cocoapods/l/modal_webview.svg?style=flat)](https://cocoapods.org/pods/modal_webview)
-[![Platform](https://img.shields.io/cocoapods/p/modal_webview.svg?style=flat)](https://cocoapods.org/pods/modal_webview)
+
 
 ## Example
 
@@ -22,7 +19,7 @@ pod 'modal_webview'
 
 ## Author
 
-João Pedro, joaomorais.ext@e-ai.com.br
+João Pedro, joaopedromorais.eu@gmail.com
 
 ## License
 

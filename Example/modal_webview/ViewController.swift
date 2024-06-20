@@ -12,7 +12,7 @@ import modal_webview
 class ViewController: UIViewController {
 
     let webview = ModalWebview()
-    var url = URL(string: "https://google.com.br")!
+    var url = URL(string: "https://developer.apple.com/")!
 
     override func viewDidLoad() {
         super.viewDidLoad()
